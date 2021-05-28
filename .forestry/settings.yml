@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/60b11a7a93e9e00017e7e716/webhook/forestry
 sections:
+- type: directory
+  path: odkazy
+  label: Odkazy
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - post
 - type: document
   path: _data/config.json
   label: Site Configuration
