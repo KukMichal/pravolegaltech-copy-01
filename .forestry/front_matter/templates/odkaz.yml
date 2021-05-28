@@ -1,4 +1,14 @@
 ---
 label: Odkaz
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Název
+- name: link
+  type: text
+  config:
+    required: true
+  label: Odkaz
