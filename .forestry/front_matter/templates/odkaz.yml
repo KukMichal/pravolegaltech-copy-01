@@ -21,13 +21,10 @@ fields:
     date_format: ''
     time_format: ''
     display_utc: false
-- name: kategorizace
-  type: blocks
-  label: Kategorizace
-  template_types:
-  - kategorizace
-  config:
-    min: 
-    max: 
+- name: kategorie
+  type: include
+  config: {}
+  template: kategorizace
+  label: Kategorie
 pages:
 - odkazy/frank-bold.md
