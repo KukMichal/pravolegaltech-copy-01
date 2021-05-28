@@ -12,3 +12,12 @@ fields:
   config:
     required: true
   label: Odkaz
+- name: date
+  type: datetime
+  label: Datum publikace
+  description: ''
+  config:
+    required: false
+    date_format: ''
+    time_format: ''
+    display_utc: false
