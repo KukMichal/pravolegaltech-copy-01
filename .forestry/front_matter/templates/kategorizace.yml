@@ -1,4 +1,22 @@
 ---
 label: Kategorizace
 hide_body: true
-fields: []
+fields:
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Něco
+    - " něco jiného"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Kategorie
+- name: tags
+  type: tag_list
+  default: []
+  label: Štítky
